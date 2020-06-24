@@ -1,0 +1,35 @@
+.Navbar {
+  width: 100%;
+  background-color: #edae61;
+  height: 110px;
+}
+
+.navbarLinks {
+  display: grid;
+  grid-template-areas: "back header switch";
+  grid-template-rows: 110px;
+  grid-template-columns: 20% 1fr 20%;
+  
+}
+
+.back {
+  grid-area: back;
+  height: 35px;
+  margin: auto;
+
+}
+
+.header {
+  grid-area: header;
+  color: #fff;
+  margin: auto;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.switch {
+  grid-area: switch;
+  margin: auto;
+  height: 35px;
+}
