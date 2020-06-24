@@ -16,7 +16,7 @@
   grid-area: back;
   height: 35px;
   margin: auto;
-
+  cursor: pointer;  
 }
 
 .header {
@@ -32,4 +32,5 @@
   grid-area: switch;
   margin: auto;
   height: 35px;
+  cursor: pointer;
 }

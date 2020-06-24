@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Back from '../../images/back-arrow.png'
-import Switch from '../../images/switch.png'
+import Back from '../../assets/images/back-arrow.png'
+import Switch from '../../assets/images/switch.png'
 import classes from './Navbar.module.css'
 
 const Navbar = () => {

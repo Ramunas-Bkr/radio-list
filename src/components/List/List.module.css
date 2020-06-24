@@ -1,0 +1,26 @@
+.List {
+    display: inline-block;
+    margin: 20px 40px;
+}
+
+.radioStation {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #42424c;
+    padding-top: 28px;
+    cursor: pointer;
+
+}
+
+.radioName {
+    font-size: 24px;
+    color: #a2abbd;
+}
+
+.frequency {
+    float: right;
+    font-size: 24px;
+    color: #a2abbd;
+    font-weight: bold;
+}
